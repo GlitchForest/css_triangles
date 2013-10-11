@@ -1,0 +1,7 @@
+/* line 5, ../sass/style.scss */
+.triangle {
+  width: 0px;
+  display: block;
+  border: solid 50px;
+  border-color: f00 white white white;
+}

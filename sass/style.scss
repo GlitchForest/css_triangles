@@ -1,0 +1,7 @@
+// import the mixin
+@import "partials/triangle";
+
+// triangle(size, color, direction)
+.triangle{
+  @include triangle(50px, f00, down);
+}

@@ -1,0 +1,9 @@
+@mixin triangle($size, $color, $direction){
+  width: 0px;
+  display: block;
+  border: solid $size;
+  @if $direction == 'down'{border-color: #{$color} #fff #fff #fff;}
+  @if $direction == 'left'{border-color: #fff #{$color} #fff #fff;}
+  @if $direction == 'up'{border-color: #fff #fff #{$color} #fff;}
+  @if $direction == 'right'{border-color: #fff #fff #fff #{$color};}
+}
