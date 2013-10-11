@@ -1,4 +1,4 @@
-#CSS Triangle SASS Mixix
+#CSS Triangle SASS Mixin
 
 Import the mixin partial into your .scss or .sass file:
 `@import "triangle";`
