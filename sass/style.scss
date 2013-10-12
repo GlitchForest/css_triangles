@@ -3,5 +3,5 @@
 
 // triangle(size, color, direction)
 .triangle{
-  @include triangle(50px, f00, down);
+  @include triangle(50px, #f00, down);
 }
